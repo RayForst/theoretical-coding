@@ -20,6 +20,8 @@ function saleHotdogs(n){
     return pricePerUnit(n) * n
 }
 
+
+
 /**
  * Alternative implementation using switch statement
  * @param {number} n - number of hotdogs to buy
