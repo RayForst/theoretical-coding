@@ -20,6 +20,8 @@ function saleHotdogs(n){
     return pricePerUnit(n) * n
 }
 
+
+
 /**
  * Alternative implementation using switch statement
  * @param {number} n - number of hotdogs to buy
@@ -47,3 +49,6 @@ const saleHotdogs = (n) => {
  * Most concise version using nested ternary operators
  */
 const saleHotdogs=n=>n*(n<5?100:n<10?95:90);
+
+// YOLO
+
