@@ -40,19 +40,6 @@ const strCount2 = (str, letter) => {
     return str.split(letter).length - 1;
 };
 
-/**
- * One-liner implementation using match and regex
- * @param {string} str - the string to search in
- * @param {string} letter - the character to count
- * @returns {number} the count of occurrences
- * Time complexity: O(n) - where n is the length of the string
- * Space complexity: O(n) - for the match array
- */
-const strCount3 = (str, letter) => {
-    // Use match with global flag to find all occurrences
-    // If no matches found, match returns null, so use || [] to get empty array
-    return (str.match(new RegExp(letter, 'g')) || []).length;
-};
 
 /**
  * Most efficient implementation using for...of loop
