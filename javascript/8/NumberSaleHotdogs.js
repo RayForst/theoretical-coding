@@ -22,6 +22,8 @@ function saleHotdogs(n){
 
 /**
  * Alternative implementation using switch statement
+ * 
+ * 
  * @param {number} n - number of hotdogs to buy
  * @returns {number} total price
  * Time complexity: O(1) - constant time
